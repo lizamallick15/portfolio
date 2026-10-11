@@ -4,7 +4,7 @@ A responsive React + Vite portfolio starter, styled with a warm beige/brown pale
 
 ## Run locally
 
-1. Install Node.js (18+ recommended).
+1. Install Node.js 22.12 or newer.
 2. In this folder run:
    ```bash
    npm install
@@ -18,6 +18,10 @@ To make a production build:
 npm run build
 npm run preview
 ```
+
+## Deploy to Netlify
+
+The `netlify.toml` configuration builds the app with `npm run build` and publishes the generated `dist/` directory. Keep the Netlify base directory set to the repository root so this configuration is applied.
 
 ## Where to edit content
 
